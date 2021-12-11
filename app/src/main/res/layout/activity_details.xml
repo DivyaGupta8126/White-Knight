@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/cutlery"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item"
+        android:layout_margin="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/cosmetics"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/cosmetics"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/cutlery"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/medicines"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/pills"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/others"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/more"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/item"
+        android:background="@drawable/back6"
+        android:gravity="center"
+        android:hint="@string/enter_product_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/light_grey"
+        android:textCursorDrawable="@drawable/cursor1"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/linear"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/back7"
+        android:cursorVisible="false"
+        android:drawableRight="@drawable/ic_calendar"
+        android:gravity="center"
+        android:hint="Choose expiry date"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:textColorHint="@color/light_grey"
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <android.widget.Button
+        android:id="@+id/add"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back8"
+        android:text="Add"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</RelativeLayout>

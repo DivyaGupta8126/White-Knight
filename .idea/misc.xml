@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back1.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back10.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back12.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back2.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back3.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back4.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back5.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back6.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back7.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back8.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/back9.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/button1.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/button2.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/cursor.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/cursor1.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/ic_add.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/ic_edit.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/ic_logout.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/ic_pencil.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/ic_scan.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/drawable/ic_try_pencil.xml" value="0.17395833333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/activity_details.xml" value="0.1578125" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/activity_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/activity_signup.xml" value="0.16666666666666666" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/extra.xml" value="0.16666666666666666" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/format.xml" value="0.14666666666666667" />
+        <entry key="..\:/White_Knight/app/src/main/res/layout/recycle.xml" value="0.3333333333333333" />
+        <entry key="..\:/White_Knight/app/src/main/res/menu/actionbar.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

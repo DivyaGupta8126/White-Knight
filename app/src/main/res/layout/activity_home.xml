@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/back1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/health"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:src="@drawable/healthybg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/italic"
+        android:text="White Knight"
+        android:textColor="@color/dark_green"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:layout_marginRight="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/health" />
+
+    <TextView
+        android:id="@+id/saviour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Saviour"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/light_green"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@id/head"
+        android:layout_marginLeft="110dp"
+
+         />
+
+    <View
+        android:id="@+id/wave"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/wave3"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
